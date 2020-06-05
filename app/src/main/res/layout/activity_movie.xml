@@ -73,10 +73,11 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="64dp"
+            android:layout_marginTop="16dp"
             android:contentDescription="@string/image"
             app:layout_constraintStart_toEndOf="@+id/ivPoster"
-            app:layout_constraintTop_toBottomOf="@+id/tvRelease" />
+            app:layout_constraintTop_toBottomOf="@+id/tvRelease"
+            app:srcCompat="@drawable/ic_star_green_24dp" />
         <!--            app:srcCompat="@drawable/star"-->
         android:layout_marginLeft="@dimen/margin_large" />
 
@@ -84,9 +85,10 @@
             android:id="@+id/tvRating"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="64dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
             android:textColor="@android:color/holo_blue_light"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/ivStar"
             app:layout_constraintTop_toBottomOf="@+id/tvRelease" />
